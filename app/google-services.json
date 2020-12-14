@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "938310342392",
+    "project_id": "rando-78eea",
+    "storage_bucket": "rando-78eea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:938310342392:android:ee16f4f960e20e006c0d0d",
+        "android_client_info": {
+          "package_name": "com.RandoDam.rando"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "938310342392-ddpganml67q73ppv7h42suna07kfrhb3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBR7nBFNq2WMWkGQhnRU5Acxlv0Eyt1wpA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "938310342392-ddpganml67q73ppv7h42suna07kfrhb3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:938310342392:android:9cd75a414369bbfc6c0d0d",
+        "android_client_info": {
+          "package_name": "com.randodam.rando"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "938310342392-ddpganml67q73ppv7h42suna07kfrhb3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBR7nBFNq2WMWkGQhnRU5Acxlv0Eyt1wpA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "938310342392-ddpganml67q73ppv7h42suna07kfrhb3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
