@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controle_Fichiers">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_data1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="data"
+            android:gravity="center"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_data2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="data"
+            android:gravity="center"
+
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_data3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="data"
+            android:gravity="center"
+
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_data4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="data"
+            android:gravity="center"
+
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_data5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="data"
+            android:gravity="center"
+
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_data6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="data"
+            android:gravity="center"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_data7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="data"
+            android:gravity="center"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_data8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="data"
+            android:gravity="center"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/tv_data9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="data"
+            android:gravity="center"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_data10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="data"
+            android:gravity="center"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+</FrameLayout>

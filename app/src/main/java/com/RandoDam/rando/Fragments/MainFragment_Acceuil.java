@@ -13,8 +13,9 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
-import com.RandoDam.rando.Login;
-import com.RandoDam.rando.Register;
+import com.RandoDam.rando.ActivityClass.CritereDeRecherche.CriteresDeRecherche;
+import com.RandoDam.rando.ActivityClass.Login;
+import com.RandoDam.rando.ActivityClass.Register;
 import com.RandoDam.rando.R;
 import com.google.firebase.auth.FirebaseAuth;
 
@@ -26,6 +27,7 @@ public class MainFragment_Acceuil extends Fragment  {
     TextView loginLink,creerUnCompteLink;
     ImageButton img_logout;
     FirebaseAuth fAuth;
+    Button CritereDeRecherche;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -36,6 +38,7 @@ public class MainFragment_Acceuil extends Fragment  {
         /** to connect to the login page **/
         loginLink=view.findViewById(R.id.tv_Login_Link);
         creerUnCompteLink=view.findViewById(R.id.tv_CreerUnCompte_Link);
+        CritereDeRecherche=view.findViewById(R.id.btn_CritereDeRecherche);
 
         loginLink.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -58,6 +61,18 @@ public class MainFragment_Acceuil extends Fragment  {
                 startActivity(in);
             }
         });
+
+        CritereDeRecherche.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent in=new Intent(getActivity(), CriteresDeRecherche.class);
+              in.putExtra("some","some data");
+                Log.i("debug", "je passe critere de rechereche");
+                startActivity(in);
+
+            }
+        });
+
        /** disabling creer the login and acount creation link when the user is logged in **/
 
         fAuth = FirebaseAuth.getInstance();

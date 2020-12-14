@@ -1,4 +1,4 @@
-package com.RandoDam.rando;
+package com.RandoDam.rando.ActivityClass;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -14,6 +14,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.RandoDam.rando.Fragments.Hamburger_fragment;
+import com.RandoDam.rando.R;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.UserProfileChangeRequest;

@@ -1,4 +1,4 @@
-package com.RandoDam.rando;
+package com.RandoDam.rando.ActivityClass;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,14 +14,11 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.RandoDam.rando.Fragments.Hamburger_fragment;
-import com.RandoDam.rando.Fragments.MainFragment_Acceuil;
 import com.RandoDam.rando.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
-import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
 
 import java.util.HashMap;
